@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.dashboard__contents {
+    display: flex;
+    justify-content: space-evenly;
+    background: #f5ce42;
+    height: 80px;
+    align-items: center;
+  }
+  .dashboard__wrapper {
+    position: relative;
+    top: 50%;
+  }
+  .common__adjustment {
+    display: flex;
+    gap: 10px;
+  }
+  .common__styling__title {
+    color: grey;
+    text-align: center;
+    font-size: 12px;
+  }
+  h2 {
+    text-decoration: underline;
+    text-align:center;
+
+  }
+  

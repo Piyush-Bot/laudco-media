@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: rgb(155, 199, 240);
+    margin-bottom: 50px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  .col1{
+    position: relative ;
+    text-align: center;
+    float: right;
+    max-width: 35%;
+   padding: 20px;
+  }
+  
+  /* Style the list inside the menu 
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }*/
+  
+  .col2 {
+    float: left;
+    padding:30px 40px 70px;
+    max-width: 65%;
+    height: 100%;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+  }
+  
+  /* Clear floats after the columns */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive screens */
+  @media (max-width: 600px) {
+    .cal1, .cal2 {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
